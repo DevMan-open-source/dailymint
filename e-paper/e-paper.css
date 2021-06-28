@@ -1,0 +1,92 @@
+html{
+    height: 100%;
+}
+body{
+     overflow-x: hidden;
+     height: 100%;
+     min-height: 100%;
+     background-color:   white ;     
+}
+.navbar{
+    padding-top: 5px;
+}
+.navbar-brand{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 40px;
+}
+.nav-item{
+    padding: 10px;
+}
+.nav-item:hover{
+    background-color: #0288D1;
+}
+@media (max-width: 990px) {
+    .navbar .link {
+      padding-left: 10px;
+      visibility: visible;
+      width: 100%;
+      font-size: 14px;
+    }
+    .navbar .navbar-brand .link {
+      visibility: hidden;
+    }
+  }
+   
+  .logo{
+      height: 80px;
+      width: 200px;
+
+  }
+  @media (max-width: 600px){
+    .logo{
+        height: 60px;
+        width: 80px;
+  
+    }
+    
+
+  }
+.news{
+    height: 150px;
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.news p {
+position: absolute;
+font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+color: #000000;
+}
+.card-deck{
+    height: 100px;
+    text-align: center;    
+}
+.btn {
+    border-radius: 20px;
+    background-color: #EC407A ;
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(5, 238, 238);
+}
+
+
+.browse-more{
+    display: block;
+    background-color:white;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 50px;
+    padding-bottom: 50px;  
+    padding-top: 30px;
+}
+.browse-more .btn{
+    background-color: teal;
+}

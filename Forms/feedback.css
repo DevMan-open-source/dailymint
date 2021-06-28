@@ -1,0 +1,131 @@
+:root {
+    --bg-color: #fff;
+    --primary-color:#14ffec;
+    --secondary-color: #14ffec;
+    --accent-color-1: #14ffec;
+    --accent-color-2: #14ffec;
+}
+.content {
+  margin-top: 1.5rem;
+  margin-left: 31rem;
+  box-shadow: 4px 4px 6px -1px rgba(0, 0, 0, 0.1), 4px 2px 4px -1px rgba(0, 0, 0, 0.06);
+  height: 60%;
+  display: grid;
+  border: solid #323232;
+  border-radius: 1rem;
+    justify-content: center;
+  align-items: center;
+  max-width: 32%;
+    color: var(--primary-color);
+    background-color:#323232;
+  font-family: sans-serif;
+  
+}
+[mv-app] {
+    padding: 1rem 1rem;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+}
+
+[property="comment"] {
+    resize: none;
+    width: 100%;
+    height: 12em;
+   
+    padding: 1em;
+    border: none;
+    border-radius: 0.3em;
+    color: black;
+    background-color: var(--bg-color);
+}
+[property="name"] {
+    resize: none;
+    width: 100%;
+    height: 3em;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+    padding: 1em;
+    border: none;
+    border-radius: 0.3em;
+    color: black;
+    background-color: var(--bg-color);
+}
+[property="comment"]::placeholder {
+    font-size: 110%;
+    color: black;
+    filter: opacity(45%);
+}
+[property="comment"]:focus {
+    outline: none;
+    box-shadow: 0 0 3px 3px var(--accent-color-1);
+}
+[property="name"]::placeholder {
+    font-size: 110%;
+    color: black;
+    filter: opacity(45%);
+}
+[property="name"]:focus {
+    outline: none;
+    box-shadow: 0 0 3px 3px var(--accent-color-1);
+}
+
+button.mv-save {
+    width: 100%;
+    margin: 1em 0 1em;
+    padding: 0.7em 1em;
+    border: solid  #14ffec;
+    border-radius: 0.5em;
+    color: #14ffec;
+    background-color:  #323232;
+    font-size: 100%;
+    font-weight:bolder;
+    transition: background-color 0.5s ease-out;
+}
+button.mv-save:disabled {
+    color: white;
+    background-color: var(--bg-color);
+}
+button.mv-save:not(:disabled):hover {
+    background-color: var(--secondary-color);
+    color: #323232;
+    cursor: pointer;
+}
+button.mv-save:not(:disabled):focus {
+    outline: none;
+    box-shadow: 0 0 5px 5px var(--accent-color-1);
+}
+[property="feedback"]:first-of-type:nth-last-of-type(n + 2) ~ [property="feedback"] {
+    display: none;
+}
+pre {
+    tab-size: 2;
+    -moz-tab-size: 2;
+}
+.app {
+ width: 90%;
+ width: 450px;
+}
+.container {
+ display: flex;
+}
+
+.item {
+ width: 90px;
+ height: 90px;
+}
+.radio {
+ display: none;
+}
+.radio ~ span {
+ font-size: 3rem;
+ filter: grayscale(100);
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+.radio:checked ~ span {
+ filter: grayscale(0);
+ font-size: 4rem;
+}

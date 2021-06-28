@@ -1,0 +1,148 @@
+body{
+  margin:0;
+  text-align: center;
+
+  }
+.main{
+  position: relative;
+  margin-left: 200px;
+}
+.carousel-inner{
+  padding-bottom: 500px;
+  margin-bottom: 100px;
+  height: 100px;
+}
+.navbar{
+  padding-bottom: 2rem;
+}
+.navbar-brand{
+  font-family: 'Bitter', serif;
+  font-size: 4rem;
+  font-weight: bold;
+
+}
+.navbar-item{
+  padding: 100px 18px ;
+}
+.green{
+  padding-top: 5px;
+
+}
+.area{
+  background-color: #ffff;
+}
+#content{
+  background-color: #ffff;
+
+}
+.card {
+  box-shadow:10px 10px 30px black;
+  border-radius:15px;
+  background-color: #323232;
+
+}
+.card-head{
+  font-family: 'Montserrat', sans-serif;
+
+}
+.card-text{
+  font-family: 'Montserrat', sans-serif;
+}
+.cardlink{ 
+  color: rgb(218, 218, 218);
+}
+.managelink{
+  color: #0d7377;
+}
+.low{
+  color: #14ffec;
+}
+#content2{
+  padding-top: 100px;
+}
+.card-img-top {
+  border-top-right-radius:15px;
+  border-top-left-radius:15px;
+  width: 100%;
+  height: 15vw;
+}
+.bottom-container{
+  background-color: #212121;
+  padding: 50px 0 20px;
+  margin-top: 80px;
+}
+.last{
+  font-size: 1rem;
+  color: #E4F6F6;
+}
+.sc{
+  width: 4%;
+  margin-top: 20px;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 1.5rem;
+  padding: 20px 0;
+}
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.lsttext{
+  color: #f6f7d7;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+.contact-mess{
+  width: 40%;
+  margin: 40px auto 60px auto;
+  font-size: 1.2rem;
+
+}
+#content3{
+  padding-top: 50px;
+}
+hr{
+  border: dotted #323232 6px;
+  border-bottom: none;
+  width: 30%;
+  margin: 50px auto;
+}
+h2{
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #323232;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+h3{
+  font-size: 2rem;
+  color: #323232;
+}
+h4{
+  font-size: 1.5rem;
+  color: #222831;
+  padding-top: 40px;
+  line-height: 2;
+}
+.contact-me{
+  margin-bottom: 50px;
+}
+.icons{
+  border-radius: 50%;
+   width:50px;
+   height:50px;
+   line-height: 5;
+   margin: auto 50px auto 50px;
+ }
+.icons1{
+  border-radius: 50%;
+   width:70px;
+   height:70px;
+   line-height: 5;
+   margin: auto 50px auto 50px;
+}

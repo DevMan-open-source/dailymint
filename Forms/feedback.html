@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="icon" href="../images/icon.ico">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="feedback.css">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,200&display=swap" rel="stylesheet">
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/e51c5d0d71.js" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <title>Feedback</title>
+</head>
+
+<body>
+  <section id="title">
+    <div class="container-fluid">
+      <nav class="navbar-expand-lg navbar-dark" style="background-color: #212121;">
+        <a class="navbar-brand" href="">dailymint <img src="../images/globe.webp" width="50" height="50"
+            class="rounded-circle" class="d-inline-block align-top" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="submit_news.html" target="_blank">Submit a News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/himanshujaidka" target="_blank">Contribute on github</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact_us.html" target="_blank">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+  
+  <div class="content">
+    <main mv-app="feedbackForm" mv-storage="#data" mv-source="#source" mv-mode="read">
+      <form mv-multiple="feedback">
+        <label>
+          <div class="app">
+            <h1>Rate our Website</h1>
+            <br>
+            <div class="container">
+              <div class="item">
+                <label for="0">
+                  <input class="radio" type="radio" name="feedback" id="0" value="0">
+                  <span>🤬</span>
+                </label>
+              </div>
+              <div class="item">
+                <label for="1">
+                  <input class="radio" type="radio" name="feedback" id="1" value="1">
+                  <span>🙁</span>
+                </label>
+              </div>
+              <div class="item">
+                <label for="2">
+                  <input class="radio" type="radio" name="feedback" id="2" value="2">
+                  <span>😶</span>
+                </label>
+              </div>
+              <div class="item">
+                <label for="3">
+                  <input class="radio" type="radio" name="feedback" id="3" value="3">
+                  <span>😁</span>
+                </label>
+              </div>
+              <div class="item">
+                <label for="4">
+                  <input class="radio" type="radio" name="feedback" id="4" value="4">
+                  <span>😍</span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </label>
+        <input name="name" property="name" placeholder="Enter your name">
+        <input name="email" property="name" placeholder="Enter your email">
+        <textarea property="comment" cols="30" rows="10"
+          placeholder="Please tell us your reasons for giving this feedback here..."></textarea>
+        <button type="submit" class="mv-save">Submit</button>
+      </form>
+    </main>
+  </div>
+  </div>
+  <br><br>
+</body>
+</html>

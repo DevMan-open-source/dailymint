@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="icon" href="../images/icon.ico">
+  <link rel="stylesheet" href="submit_news.css">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,200&display=swap" rel="stylesheet">
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/e51c5d0d71.js" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <title>Submit A News</title>
+</head>
+<body onload="Captcha();">
+
+    <section id="title">
+
+        <div class="container-fluid">
+          <nav class="navbar-expand-lg navbar-dark"  style="background-color: #212121;">
+        <a class="navbar-brand" href="">dailymint <img src="../images/globe.webp" width="50" height="50" class="rounded-circle" class="d-inline-block align-top" alt="logo"></a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/himanshujaidka" target="_blank">Contribute on github</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="feedback.html" target="_blank">Feedback</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://himanshujaidka.github.io/" target="_blank">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="green">
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            Please enter valid email-id or mobile no. for contact
+      </div>
+      </div>
+      </section><br>
+<form>
+    <ul class="flex-outer">
+        <div class="header">
+            <h2 style="color: aliceblue;">Submit A News</h2>
+        </div>
+        <li>
+            <label for="Name">Name</label>
+            <input type="text" class="form-control" id="Name" aria-describedby="nameHelp" placeholder="Enter Your Name" required>       
+        </li>
+        <li>
+                <label for="Email">Email ID</label>
+                <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter Your email">       
+        </li>
+        <li>
+            <label for="Phone">Mobile No.</label>
+                <input type="tel" class="form-control" id="Mobile" aria-describedby="mobileHelp" placeholder="Enter Your Mobile No.">       
+        </li>
+        <li>
+            <label for="News">Type of News</label>
+            <select class="form-control">
+                <option>Indian Update</option>
+                <option>Foreign Update</option>
+                <option>Delhi Update</option>
+                <option>Tech Update</option>
+                <option>Entertainment Update
+                </option>
+                <option>Corona Update
+                </option>
+              </select>
+        </li>
+        <li>
+            <label for="Link_of_news">Link Of News</label>
+            <input type="text" class="form-control" id="Link_of_news" aria-describedby="nameHelp" placeholder="Send the link of the News" required>       
+        </li>
+        <li style="width: 25rem;">
+            <label for="Name">Upload Link<br>(optional)
+            </label>
+            <input type="file" class="form-control" id="Upload_link">   
+        </li>
+        <li>
+          <label for="captcha">Captcha</label>
+          <div> 
+            <h2 type="text" id="mainCaptcha"></h2>
+            <button onclick="Captcha();"><i class="fas fa-redo-alt"></i></button>
+            <input type="text" id="txtInput"/>    
+            </div>
+        </li>
+            <button data-toggle="modal" data-target="#myModal" type="submit" value="Check" onclick="alert(validCaptcha());">Submit</button>
+        </li> 
+    </ul>
+</form>
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+  
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+        <h3> <i class="fa fa-thumbs-up"></i><span> </span> Successfully Sent</h3>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-dismiss="modal">Done</button>
+      </div>
+    </div>
+    </div>
+  </div>
+  <br><br>
+
+  <script type="text/javascript" src = "submit_news.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+body{
+  background-color: #212121;
+  text-align: center;
+}
+#content2{
+  padding-top: 100px;
+}
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+}
+.navbar{
+  padding-bottom: 2rem;
+}
+.navbar-brand{
+  font-family: 'Bitter', serif;
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+.navbar-item{
+  padding: 100px 18px ;
+}
+.card-head{
+  font-family: 'Montserrat', sans-serif;
+
+}
+.card-text{
+  font-weight: bold;
+}
+.cardlink{
+  color: #1a3c40;
+}
+.managelink{
+  color: #0d7377;
+}
+.container-fluid{
+  margin-bottom: 100px;
+}
+hr{
+  border: double #ffff 6px;
+  border-bottom: none;
+  width: 100%;
+  margin: 50px auto;
+}
+.bottom-container{
+  background-color: #ffff;
+  padding: 50px 0 20px;
+  margin-top: 80px;
+}
+.lsttext{
+  color: #323232;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+.icons{
+  border-radius: 50%;
+   width:50px;
+   height:50px;
+   line-height: 5;
+   margin: auto 50px auto 50px;
+ }
+.icons1{
+  border-radius: 50%;
+   width:70px;
+   height:70px;
+   line-height: 5;
+   margin: auto 50px auto 50px;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffff;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+h3{
+  font-size: 2rem;
+  color: #ffff;
+}
+h4{
+  font-size: 1.5rem;
+  color: #ffff
+  padding-top: 40px;
+  line-height: 2;
+}
+.sc{
+  width: 4%;
+  margin-top: 20px;
+}
+#content3{
+  padding-top: 80px;
+}
+.btn {
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bolder;
+
+}
+
+.contact-me{
+  margin-bottom: 50px;
+}
+.copyright{
+  color: #212121;
+  font-size: 1.5rem;
+  padding: 20px 0;
+}
