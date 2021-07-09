@@ -5,13 +5,13 @@
 
 ## Objective
 
-Objective is to providing real and genuine news to readers.
+The Objective is to provide real and genuine news to readers.
 You are invited to contribute and add more features to it.
 
-You could acces it by clicking below link:-
+You could acces it by clicking on the link below:-
 [https://himanshujaidka.github.io/dailymint/](https://himanshujaidka.github.io/dailymint/)
 
-## Tech stack used
+## Tech stacks used
 
 - [x] Html
 - [x] CSS
