@@ -92,12 +92,6 @@ Join our [discord server](https://discord.gg/UBsamxfTFH) to connect with other c
 
 Licensed under the [MIT License](LICENSE)
 
-## Author
-
-| <a href="https://himanshujaidka-github-io.vercel.app/"><img src="https://avatars.githubusercontent.com/himanshujaidka" width="150px" height="150px" /></a> |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                **[Himanshu](https://himanshujaidka-github-io.vercel.app/)**                                                |
-
 
 ## Our valuable Contributors
 
