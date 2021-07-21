@@ -1,4 +1,4 @@
-## Dailymint &nbsp
+## Dailymint
 
 <div align="center">
 
@@ -29,15 +29,61 @@ The Objective is to provide real and genuine news to the readers.
 - [x] MongoDB
 
 ## Contribution Guideline
-
-Are we missing any of your favorite features, which you think you can add to it?  We invite you to contribute to this project and improve it further.
-
 All types of contributions are welcome.
-
-Follow [Code of conduct](https://github.com/DevMan-open-source/dailymint/blob/master/CODE_OF_CONDUCT.md).
 
 If you are new to open source contributions, follow the instructions given in [CONTRIBUTING.md](https://github.com/DevMan-open-source/dailymint/blob/master/CONTRIBUTING.md).
 
+Be respectful to everyone and follow [Code of conduct](https://github.com/DevMan-open-source/dailymint/blob/master/CODE_OF_CONDUCT.md).
+
+Are we missing any of your favorite features, which you think you can add to it?  We invite you to contribute to this project and improve it further.
+
+## How to start contributing?
+
+Check if there are some [open issues](https://github.com/DevMan-open-source/dailymint/issues) to work on. If you find any typo, bug or you have any feature request create a issue and ask Author or mentor to assign you.
+
+### Setting up locally
+1. Fork this repository.
+2. clone it.
+ ```
+ git clone https://github.com/YOUR_GITHUB_UserName/dailymint
+ ```
+3. 
+ ```
+ cd dailymint
+ ```
+4. Open in the VS code(or any other you prefer) 
+ ```
+ code .
+ ```
+5. Make sure your forked repo is upto date. 
+ ```
+ git pull upstream main
+ ```
+6. Make a seperate branch
+ ```
+ git checkout -b branchName
+ ```
+7. Make the required changes to solve the issue.
+
+8. 
+ ```
+ git add .
+ ```
+9. 
+ ```
+ git commit -m "Relevant message"
+ ``` 
+10.
+ ```
+ git push origin branchName
+ ```
+11. Open GitHub and make a pull request that will fix the issue.
+12. Congratulations!! You have successfully contributed. Now sit back and wait for the project maintainers response. 
+
+
+## Discord server
+
+Join our [discord server](https://discord.gg/UBsamxfTFH) to connect with other contributors, ask your doubts and stay upto-date.
 
 
 
