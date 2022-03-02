@@ -57,7 +57,7 @@ Check if there are some [open issues](https://github.com/DevMan-open-source/dail
  ```
 5. Make sure your forked repo is upto date. 
  ```
- git pull upstream main
+ git pull origin main
  ```
 6. Make a seperate branch
  ```
