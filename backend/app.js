@@ -5,6 +5,7 @@ const helmet = require('helmet');
 const mongoSanitize = require('express-mongo-sanitize');
 const xss = require('xss-clean');
 const hpp = require('hpp');
+const userRouter = require('./Routes/UserRouter');
 
 //exporting different routers
 
@@ -29,6 +30,9 @@ const limiter = rateLimit({
   message: 'Too many requests from this IP, please try again in an hour!'
 });
 app.use('/api', limiter);
+
+//To use user router which will handle all user actions
+app.use('/api/user',userRouter)
 
 // Body parser, reading data from body into req.body
 app.use(express.json({ limit: '10kb' }));
